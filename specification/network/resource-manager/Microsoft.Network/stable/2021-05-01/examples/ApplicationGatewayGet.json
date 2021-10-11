@@ -134,7 +134,8 @@
                   ]
                 },
                 "clientAuthConfiguration": {
-                  "verifyClientCertIssuerDN": true
+                  "verifyClientCertIssuerDN": true,
+                  "verifyClientOCSPRevocation": true
                 },
                 "trustedClientCertificates": [
                   {

@@ -1366,7 +1366,11 @@
         "verifyClientCertIssuerDN": {
           "type": "boolean",
           "description": "Verify client certificate issuer name on the application gateway."
-        }
+        },
+        "VerifyClientOCSPRevocation": {
+          "type": "boolean",
+          "description": "Revocation check on client certificate with OCSP."
+        }        
       },
       "description": "Application gateway client authentication configuration."
     },
